@@ -1,0 +1,38 @@
+{
+  "Records": [
+      {
+          "eventVersion": "2.1",
+          "eventSource": "aws:s3",
+          "awsRegion": "ap-northeast-2",
+          "eventTime": "2023-05-10T05:39:48.086Z",
+          "eventName": "ObjectCreated:Put",
+          "userIdentity": {
+              "principalId": "A2GNUNMR7S9EA"
+          },
+          "requestParameters": {
+              "sourceIPAddress": "118.36.197.8"
+          },
+          "responseElements": {
+              "x-amz-request-id": "DZ50G8DJ0REJMRQ5",
+              "x-amz-id-2": "bprGSJSTkdd48LlN3rAA4Y4jlXPXWbi7L/5frT1EQa6++3+nQPJBwEP3RiyymPcT1MiGlDwHNoytTohnv9Ph7ZI9IfKzFF1n"
+          },
+          "s3": {
+              "s3SchemaVersion": "1.0",
+              "configurationId": "4da8618e-8b39-4b13-b06c-765c008f9071",
+              "bucket": {
+                  "name": "sam-photo-s3",
+                  "ownerIdentity": {
+                      "principalId": "A2GNUNMR7S9EA"
+                  },
+                  "arn": "arn:aws:s3:::sam-photo-s3"
+              },
+              "object": {
+                  "key": "example.jpeg",
+                  "size": 2644261,
+                  "eTag": "36cab125e8afeb581f7f8b31d9c6cc11",
+                  "sequencer": "00645B2E23EECA7DBE"
+              }
+          }
+      }
+  ]
+}
